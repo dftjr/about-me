@@ -15,9 +15,11 @@ if (homeState === 'no' || homeState === 'n') {
   //console.log('Input: ' + homeState + ' Output: Correct!');
   alert('Correct!');
   counter++;
-} else if (homeState) {
+} else if (homeState === 'yes' || homeState ==='y') {
   //console.log('Input: ' + homeState + ' Output: Incorrect!');
   alert('Incorrect... I mean, it was a 50/50 shot right?');
+} else {
+  alert('I do not recognize that entry, we can move on.');
 }
 
 let myPet = prompt('Were my dogs both German Shepherds?\n(Please enter: y/n or yes/no)').toLowerCase().trim();
