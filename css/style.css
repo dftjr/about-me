@@ -1,5 +1,6 @@
 h1 {
   color: maroon;
+  border-style: ;
   font-size: 8rem;
   font-style: italic;
   font-family: cursive;
@@ -9,11 +10,19 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: italic;
   font-family: cursive;
   margin: auto;
   padding: auto;
+  text-align: center;
+}
+
+ol {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  list-style-type:upper-alpha;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
