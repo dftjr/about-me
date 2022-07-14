@@ -29,80 +29,94 @@ function project() {
   }
 }
 
-alert(project());
+function question2() {
+  let question2 = prompt(
+    "Were my dogs both German Shepherds?\n(Please enter: y/n or yes/no)"
+  )
+    .toLowerCase()
+    .trim();
 
-// let myPet = prompt(
-//   "Were my dogs both German Shepherds?\n(Please enter: y/n or yes/no)"
-// )
-//   .toLowerCase()
-//   .trim();
+  if (question2 === "yes" || question2 === "y") {
+    //console.log('Input: ' + question2 + ' Output: Correct!');
+    alert("Correct!");
+    counter++;
+  } else if (question2 === "no" || question2 === "n") {
+    //console.log('Input: ' + mypet + ' Output: Incorrect!');
+    alert(
+      "Incorrect... I let them know you called them poodles, they are not thrilled!"
+    );
+  } else {
+    alert("I do not recognize that entry, we can move on.");
+  }
+}
+question2();
 
-// if (myPet === "yes" || myPet === "y") {
-//   //console.log('Input: ' + myPet + ' Output: Correct!');
-//   alert("Correct!");
-//   counter++;
-// } else if (myPet === "no" || myPet === "n") {
-//   //console.log('Input: ' + mypet + ' Output: Incorrect!');
-//   alert(
-//     "Incorrect... I let them know you called them poodles, they are not thrilled!"
-//   );
-// } else {
-//   alert("I do not recognize that entry, we can move on.");
-// }
+function question3() {
+  let question3 = prompt(
+    "Do I hate video games?\n(Please enter: y/n or yes/no)"
+  )
+    .toLowerCase()
+    .trim();
 
-// let myHobby = prompt("Do I hate video games?\n(Please enter: y/n or yes/no)")
-//   .toLowerCase()
-//   .trim();
+  if (question3 === "no" || question3 === "n") {
+    //console.log('Input: ' + question3 + ' Output: Correct!');
+    alert("Correct!");
+    counter++;
+  } else if (question3 === "yes" || question3 === "y") {
+    //console.log('Input: ' + question 3 + ' Output: Incorrect!');
+    alert("Incorrect... I will forever love them!");
+  } else {
+    alert("I do not recognize that entry, we can move on.");
+  }
+}
+question3();
 
-// if (myHobby === "no" || myHobby === "n") {
-//   //console.log('Input: ' + myHobby + ' Output: Correct!');
-//   alert("Correct!");
-//   counter++;
-// } else if (myHobby === "yes" || myHobby === "y") {
-//   //console.log('Input: ' + myHobby + ' Output: Incorrect!');
-//   alert("Incorrect... I will forever love them!");
-// } else {
-//   alert("I do not recognize that entry, we can move on.");
-// }
+function question4() {
+  let question4 = prompt(
+    "Is the brand of car I drive a Chevy?\n(Please enter: y/n or yes/no)"
+  )
+    .toLowerCase()
+    .trim();
 
-// let anyCar = prompt(
-//   "Is the brand of car I drive a Chevy?\n(Please enter: y/n or yes/no)"
-// )
-//   .toLowerCase()
-//   .trim();
+  if (question4 === "yes" || question4 === "y") {
+    //console.log('Input: ' + aquestion4 + ' Output: Correct!');
+    alert("Correct!");
+    counter++;
+  } else if (question4 === "no" || question4 === "n") {
+    //console.log('Input: ' + anyCar + ' Output: Incorrect!');
+    alert("Incorrect... you must be a Ford fan.");
+  } else {
+    alert("I do not recognize that entry, we can move on.");
+  }
+}
+question4();
 
-// if (anyCar === "yes" || anyCar === "y") {
-//   //console.log('Input: ' + anyCar + ' Output: Correct!');
-//   alert("Correct!");
-//   counter++;
-// } else if (anyCar === "no" || anyCar === "n") {
-//   //console.log('Input: ' + anyCar + ' Output: Incorrect!');
-//   alert("Incorrect... you must be a Ford fan.");
-// } else {
-//   alert("I do not recognize that entry, we can move on.");
-// }
+("use strict");
 
-// let myAge = prompt("Am I older than 25?\n(Please enter: y/n or yes/no)")
-//   .toLowerCase()
-//   .trim();
+function question5() {
+  let question5 = prompt("Am I older than 25?\n(Please enter: y/n or yes/no)")
+    .toLowerCase()
+    .trim();
 
-// if (myAge === "yes" || myAge === "y") {
-//   //console.log('Input: ' + myAge + ' Output: Correct!');
-//   alert("Correct!");
-//   counter++;
-// } else if (myAge === "no" || myAge === "n") {
-//   //console.log('Input: ' + myAge + ' Output: Incorrect!');
-//   alert("Incorrect... but I do appreciate the compliment.");
-// } else {
-//   alert("I do not recognize that entry, we can move on.");
-// }
+  if (question5 === "yes" || question5 === "y") {
+    //console.log('Input: ' + question5 + ' Output: Correct!');
+    alert("Correct!");
+    counter++;
+  } else if (question5 === "no" || question5 === "n") {
+    //console.log('Input: ' + myAge + ' Output: Incorrect!');
+    alert("Incorrect... but I do appreciate the compliment.");
+  } else {
+    alert("I do not recognize that entry, we can move on.");
+  }
+}
+question5();
 
-// alert(
-//   "Let us see how you are doing so far...\n" +
-//     counter +
-//     " / 7 questions correct so far. Keep up the good work!"
-// );
-// alert("Time to play a little guessing game...");
+alert(
+  "Let us see how you are doing so far...\n" +
+    counter +
+    " / 7 questions correct so far. Keep up the good work!"
+);
+alert("Time to play a little guessing game...");
 
 // let guessesNumber = 4;
 // let myNumber = Math.ceil(Math.random() * 10);
