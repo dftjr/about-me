@@ -1,15 +1,9 @@
 'use strict';
 
 let visitorName = prompt('Welcome to my About Me page. Please enter your name for a more personalized experience');
-
 alert('Welcome ' + visitorName + ' to my About Me page. I want to make this fun and interactive.\n\nPlease read and memorize the facts about myself below. You will be given a short quiz right after!\n\n- My name is David Tusia\n- I am 31 years old\n- I grew up in Connecticut\n- I have two German Shepherds named Luna and Nyx\n- I love playing video games\n- I drive a Chevy Cobalt');
-
 let counter = 0;
 let messageAttempts = 'Attempts Remaining: ';
-
-alert('Time to play a little guessing game...');
-
-quiz1();
 
 function quiz1() {
   let questions = ['Did I grow up in Washington State?', 'Were my dogs both German Shepherds?', 'Do I hate video games?', 'Is the brand of car I drive a Chevy?', 'Am I older than 25?'];
@@ -41,9 +35,9 @@ function quiz1() {
   }
 }
 
+quiz1();
 alert('Let us see how you are doing so far...\n' + counter + ' / 7 questions correct so far. Keep up the good work!');
-
-quiz2();
+alert('Time to play a little guessing game...');
 
 function quiz2() {
   let visitorAnswerQ2 = 0;
@@ -84,11 +78,9 @@ function quiz2() {
   }
 }
 
+quiz2();
 alert('So far you have a total of ' + counter + ' /7 questions correct. Keep going!');
-
 alert('Hmmm, lets make this a little bit tougher... do you like Geography?');
-
-quiz3();
 
 function quiz3() {
   let visitorAnswerQ3;
@@ -120,5 +112,5 @@ function quiz3() {
   }
 }
 
-
+quiz3();
 alert('You really are good at this, just look at your score ' + counter + ' /7! That is incredible!\n\nWell until I make more games, please enjoy the rest of my website ' + visitorName + '!');
