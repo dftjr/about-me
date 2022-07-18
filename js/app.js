@@ -1,6 +1,6 @@
 'use strict';
 
-let visitorName = prompt('Welcome to my About Me page. Please enter your name for a more personalized experience');
+let visitorName = prompt('Welcome to my About Me page. Please enter your name for a more personalized experience:');
 alert('Welcome ' + visitorName + ' to my About Me page. I want to make this fun and interactive.\n\nPlease read and memorize the facts about myself below. You will be given a short quiz right after!\n\n- My name is David Tusia\n- I am 31 years old\n- I grew up in Connecticut\n- I have two German Shepherds named Luna and Nyx\n- I love playing video games\n- I drive a Chevy Cobalt');
 let counter = 0;
 let messageAttempts = 'Attempts Remaining: ';
@@ -113,4 +113,4 @@ function quiz3() {
 }
 
 quiz3();
-alert('You really are good at this, just look at your score ' + counter + ' /7! That is incredible!\n\nWell until I make more games, please enjoy the rest of my website ' + visitorName + '!');
+alert('You really are good at this, just look at your score ' + counter + ' /7! That is incredible!\n\nWell... until I make more games, please enjoy the rest of my website ' + visitorName + '!');
